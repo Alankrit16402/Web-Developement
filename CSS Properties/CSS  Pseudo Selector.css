@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+  .container {
+      border: 5px solid rgb(89, 14, 14);
+      background-color: aquamarine;
+      padding: 10px;
+      margin: 20px auto;
+      width: 500px;
+      text-align: justify;
+  }
+
+  .btn {
+      background-color: rgb(86, 206, 232);
+      border: 2px solid black;
+      margin: 5px;
+      padding: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+
+  .btn:hover {
+      background-color: blue;
+      border: 5px solid red;
+      font-family: 'Satisfy', 'cursive';
+      color: aqua;
+      font-size: 50px;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  a:hover {
+      background-color: aliceblue;
+      color: red
+  }
+
+  a:visited {
+      color: blanchedalmond;
+  }
+
+  a:visited:hover {
+      background-color: blue;
+  }
+
+  a:active {
+      background-color: black;
+  }

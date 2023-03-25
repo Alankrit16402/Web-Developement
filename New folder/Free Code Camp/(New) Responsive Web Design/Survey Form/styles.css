@@ -1,0 +1,32 @@
+img{
+    width: 100px;
+    height: auto;
+    border: 1px solid #000;
+}
+.container {
+    border: 2px solid #000;
+    width: 500px;
+    position: absolute;
+    right: 500px;
+    text-align: justify;
+}
+.container h2{
+    text-align: center;
+}
+ul{
+    clear: both;
+}
+ul li.left-side {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 500px;
+}
+
+ul li.right-side {
+    list-style: none;
+    margin-left: 50px;
+    position: relative;
+    left: 50px;
+    top: 500px;
+}

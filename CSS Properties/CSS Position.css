@@ -1,0 +1,25 @@
+.container {
+    border: 5px solid rgb(28, 6, 92);
+    background-color: aquamarine;
+    height: 1000px;
+}
+
+.box {
+    border: 5px solid rgb(218, 198, 198);
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+
+#box3 {
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: static;  */
+    position: sticky; 
+    /* position: fixed; */
+    top: 5px;
+    /* left: 50px; */
+    /* bottom: 50px; */
+    /* right: 4px; */
+}

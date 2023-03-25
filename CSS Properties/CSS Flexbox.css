@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+    width: 100%;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.items {
+    background-color: aqua;
+    border: 2px solid burlywood;
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#items1 {
+    /* order: 3; */
+    flex-grow: 2;
+}
+
+#items2 {
+    /* order: 1; */
+    flex-shrink: 5;
+    flex-basis: 200px;
+}
+
+#items3 {
+    /* order: 2; */
+}

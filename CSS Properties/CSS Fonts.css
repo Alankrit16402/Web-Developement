@@ -1,0 +1,29 @@
+/* Ways to Change Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+#font1 {
+    font-family: 'Explora', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#font2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+#font3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#size1 {
+    font-size: 30px;
+    font-family: 'Explora';
+}
+
+#lineh1 {
+    line-height: 3em;
+}
+#fontw1{
+    font-weight: bold;
+}
+#fonts1{
+    font-style: italic;
+}

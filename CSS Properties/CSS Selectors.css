@@ -1,0 +1,28 @@
+/* Element Selector */
+span{
+    color: blue;
+}
+/* Multiple elements selector */
+a,p{
+    color: black;
+}
+/* Elements with Class Selectors */
+p.redcolor{
+    background-color: red;
+}
+/* Elements with Id Selectors */
+p#blueborder{
+    border: 10px solid blue;
+}
+/* * Selectors(selecting all the elements in the HTML) */
+*{
+    background-color: brown;
+}
+/* ID Selectors */
+#greencolor{
+    color   : green;
+}
+/* Class Selectors */
+.bluebg{
+    background-color: rgb(0, 0, 255);
+}

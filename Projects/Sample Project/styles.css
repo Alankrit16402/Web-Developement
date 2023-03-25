@@ -1,0 +1,228 @@
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+  body {
+      margin: 0;
+  }
+
+  .navbar {
+      background-image: url('https://images.pexels.com/photos/161512/eggplant-400-08373800-400-08373801-400-08373802-400-08373803-161512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      border-radius: 23px;
+  }
+
+  .navbar ul {
+      overflow: auto;
+  }
+
+  .navbar li {
+      list-style: none;
+      float: left;
+      margin: 17px 15px;
+  }
+
+  .navbar li a {
+      padding: 5px 5px;
+      text-decoration: none;
+      color: #ff6600;
+  }
+
+  .navbar li a:hover {
+      background-color: #00693E;
+  }
+
+  .search {
+      color: #ff6600;
+      padding: 7px 30px;
+      float: right;
+  }
+
+  .navbar input {
+      border: 5px solid #f1c50e;
+      border-radius: 21px;
+      padding: 5px 4px;
+      width: 150px;
+  }
+
+  #container1 {
+      background-image: url('https://images.pexels.com/photos/161512/eggplant-400-08373800-400-08373801-400-08373802-400-08373803-161512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      display: flex;
+      justify-content: center;
+      height: 400px;
+  }
+
+  #container1 div {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      /* border: 2px solid red; */
+      background-color: rgba(255, 255, 255, 0.4);
+      font-family: 'Gloock', serif;
+      text-align: justify;
+      width: 500px;
+      margin-top: 20px;
+      height: 256px;
+  }
+
+  #container1 div h2 {
+      color: #f1c50e;
+      font-size: 72px;
+      margin: 10px;
+  }
+
+  #container1 div p {
+      font-size: 18px;
+      margin: 6px;
+      color: #ccaa59;
+  }
+
+  #container1 button {
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 6em;
+      font-size: 1.5em;
+      background-color: #f1c50e;
+  }
+
+  #container1 button a {
+      color: black;
+      text-decoration: none;
+  }
+
+  #container1 button a:hover {
+      cursor: default;
+  }
+
+  #container2 {
+      color: white;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+      height: 500px;
+  }
+
+  #c1d1 {
+      width: 50%;
+      display: inline;
+      height: auto;
+      padding: 2.5em;
+  }
+
+  #c1d1 h2 {
+      font-size: 48px;
+      margin: 0;
+      color: #FFD56F;
+      font-weight: 800;
+  }
+
+  #c1d1 h3 {
+      font-size: 5em;
+      margin: 0;
+      margin-top: 1px;
+  }
+
+  #c1d1 h5 {
+      font-size: 32px;
+      color: #f1c50e;
+      margin: 0;
+      line-height: 2.5em;
+  }
+
+  #c1d1 p {
+      font-size: 1.8em;
+      text-align: justify;
+      line-height: 1.5em;
+  }
+
+  #c1d2 {
+      display: inline;
+      width: 50%;
+  }
+
+  #c1d2 #c1d2p1 {
+      font-size: 27px;
+      padding-right: 20px;
+      text-align: justify;
+  }
+
+  #c1d2 h3 {
+      font-size: 52px;
+      margin: 0;
+  }
+
+  #c1d2 h5 {
+      font-size: 2em;
+      margin: 0;
+      margin-top: 10px;
+      color: #f1c50e;
+  }
+
+  #c1d2 #c1d2p2 {
+      font-size: 28px;
+      text-align: justify;
+      padding-right: 30px;
+  }
+
+  #container3 {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      background-image: url('H:/XAMPP/htdocs/Web Development/Images/Project 2 Images/ricardo-.jpg');
+  }
+
+  #container3 h1 {
+      font-size: 3em;
+      text-align: center;
+      margin: 0;
+      color: rgb(145, 151, 8);
+  }
+
+  #container3 h5 {
+      font-size: 2em;
+      text-align: center;
+      margin: 0;
+      line-height: 66px;
+  }
+
+  #container3 a {
+      width: 75px;
+      margin: auto;
+      border: 2px solid yellow;
+      background-color: yellow;
+      border-radius: 4px;
+      padding: 2px;
+      text-decoration: none;
+      color: black;
+  }
+
+  #container4 {
+      background-image: url('H:/XAMPP/htdocs/Web Development/Images/Project 2 Images/nature.jpg');
+      display: flex;
+      flex-direction: column;
+  }
+
+  /* container 1 div 1 */
+  #c4d1d1 {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #c4d1d1 img {
+      width: 400px;
+      height: 400px;
+      margin-left: 100px;
+  }
+
+  #c4d1 div h2 {
+      margin-left: 100px;
+      font-size: 100px;
+      margin-bottom: 10px;
+      color: #fca311;
+  }
+
+  #c4d1 div p {
+      text-align: justify;
+      font-size: 1.5em;
+      padding-right: 50px;
+      padding-left: 50px;
+      color: #0c1114;
+  }

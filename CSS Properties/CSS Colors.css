@@ -1,0 +1,12 @@
+/* color selection by its name */
+#c1 {
+    color: blue;
+}
+/* color selection by rgb value */
+#c2 {
+    color: rgb(255,255,255);
+}
+/* color selection by hex code  */
+#c3 {
+    color: #130e6f;
+}

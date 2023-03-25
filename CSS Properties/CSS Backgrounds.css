@@ -1,0 +1,15 @@
+#firstpara {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+}
+
+#secondpara {
+    height: 330px;
+    width: 350px;
+    color: rgb(1, 54, 1);
+    background-image: url(/Images/indian\ flag.png);
+    border: 2px solid orange;
+    background-repeat: no-repeat;
+    background-position: top; 
+}

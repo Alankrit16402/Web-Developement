@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Marck+Script&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 950px;
+    border: 6px solid rgb(247, 133, 156);
+    margin: 50px auto;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: palevioletred;
+}
+
+.items {
+    border: 5px solid rgb(232, 126, 126);
+    margin: 10px 5px;
+    padding: 10px 5px;
+    background-color: antiquewhite;
+}
+
+#fruits {
+    float: left;
+    width: 49%;
+}
+
+#bakery {
+    float: left;
+    width: 48%;
+}
+
+#vegetables {
+    /* float: left; */
+    width: 100%;
+    clear: both;
+}
+p,h3{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+}
